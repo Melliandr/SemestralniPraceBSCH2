@@ -1,7 +1,0 @@
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\VeterinarniKlinika.csproj.AssemblyReference.cache
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\VeterinarniKlinika.csproj.SuggestedBindingRedirects.cache
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\MainWindow.g.cs
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\View\AddAnimalWindow.g.cs
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\App.g.cs
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\VeterinarniKlinika_MarkupCompile.cache
-C:\Users\Konstantin\Desktop\SemestralniPraceC#\SemestralniPraceBSCH2\VeterinarniKlinika\obj\Debug\VeterinarniKlinika_MarkupCompile.lref

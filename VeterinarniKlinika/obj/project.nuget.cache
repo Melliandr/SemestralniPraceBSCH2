@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "K98F5oDQrN1qp4wLRpjuc/sSeg2Wk624Zy9gfjlvpsjT3xJ/IUrJwQi9ti/JSDy3OHaFi3AKuExZnQtd5SmzsQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Konstantin\\.nuget\\packages\\microsoft.data.sqlite\\6.0.0\\microsoft.data.sqlite.6.0.0.nupkg.sha512",
+    "C:\\Users\\Konstantin\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",
+    "C:\\Users\\Konstantin\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.6\\sqlitepclraw.bundle_e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Konstantin\\.nuget\\packages\\sqlitepclraw.core\\2.0.6\\sqlitepclraw.core.2.0.6.nupkg.sha512",
+    "C:\\Users\\Konstantin\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.6\\sqlitepclraw.lib.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Konstantin\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.6\\sqlitepclraw.provider.e_sqlite3.2.0.6.nupkg.sha512",
+    "C:\\Users\\Konstantin\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
+  ],
+  "logs": []
+}

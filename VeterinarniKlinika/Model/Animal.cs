@@ -13,6 +13,5 @@ namespace VeterinarniKlinika.Model
         public string Species { get; set; }
         public string Breed { get; set; }
         public DateTime? DateOfBirth { get; set; }
-        public int OwnerID { get; set; }
     }
 }

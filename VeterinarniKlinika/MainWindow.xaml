@@ -3,22 +3,81 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:VeterinarniKlinika"
+        xmlns:local="clr-namespace:VeterinarniKlinika.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <ListBox ItemsSource="{Binding Animals}" DisplayMemberPath="Name" HorizontalAlignment="Center" VerticalAlignment="Top" Width="756" Height="376" Margin="0,4,0,0" RenderTransformOrigin="0.5,0.5">
-            <ListBox.RenderTransform>
-                <TransformGroup>
-                </TransformGroup>
-            </ListBox.RenderTransform>
-        </ListBox>
+        Title="Veterinarni klinika" Height="620" Width="1000"
+        FontSize="16" FontFamily="Segoe UI"
+        ResizeMode="NoResize">
+    
 
-        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Bottom" Orientation="Horizontal" Margin="10">
-            <Button Content="Add Animal" Command="{Binding AddAnimalCommand}" Width="80" Margin="5"/>
-            <Button Content="Delete" Command="{Binding DeleteAnimalCommand}" Width="80" Margin="5"/>
-            <Button Content="Update" Command="{Binding UpdateAnimalCommand}" Width="80" Margin="5"/>
-            <Button Content="Visits" Command="{Binding VisitsAnimalCommand}" Width="80" Margin="5"/>
+    <!-- Resource Dictionary for Styles and Templates -->
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style x:Key="ButtonStyle" TargetType="Button">
+                <Setter Property="Background" Value="#007acc"/>
+                <Setter Property="Foreground" Value="White"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="FontSize" Value="18"/>
+                <Setter Property="Margin" Value="10"/>
+                <Setter Property="Padding" Value="10"/>
+                <Setter Property="Cursor" Value="Hand"/>
+                <Style.Triggers>
+                    <Trigger Property="IsMouseOver" Value="True">
+                        <Setter Property="Background" Value="#00508e"/>
+                    </Trigger>
+                </Style.Triggers>
+            </Style>
+        </ResourceDictionary>
+        
+    </Window.Resources>
+
+    <!-- Main Grid Layout -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Header -->
+        <TextBlock Text="Veterinarni klinika" Grid.Row="0"
+                   FontSize="36" FontWeight="Bold"
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Margin="10"/>
+
+        <!-- Main Content Area -->
+        <ScrollViewer Grid.Row="1" Margin="10" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Text="About Us" FontWeight="Bold" FontSize="25"/>
+                <TextBlock TextWrapping="Wrap" Margin="0,10,0,0">
+                   Welcome to Happy Paws Veterinary Clinic, where we provide top-notch care for your beloved pets. 
+        Our team of experienced veterinarians and caring staff are dedicated to ensuring the health and well-being 
+        of your furry family members.
+                </TextBlock>
+
+                <!-- Additional Content -->
+                
+                <TextBlock Text="Our Services" FontWeight="Bold" FontSize="25" Margin="0,10,0,0"/>
+                <TextBlock Margin="0,10,0,0">
+    <Run Text="Add an appointment for a new patient"/>
+    <LineBreak/>
+    <Run Text="Our veterinarians"/>
+    <LineBreak/>
+    <Run Text="Our patients"/>
+                </TextBlock>
+
+            </StackPanel>
+        </ScrollViewer>
+
+        <!-- Buttons Panel -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal"
+                    HorizontalAlignment="Left" VerticalAlignment="Top"
+                    Height="70" Margin="579,436,0,0" Width="390">
+            <Button Content="Animals" Width="110" Style="{StaticResource ButtonStyle}"
+                    Click="OpenPacientRegisterView_Click" FontSize="12"/>
+            <Button Content="Veterinarians" Width="110" Style="{StaticResource ButtonStyle}"
+                    Click="OpenVeterinarianRegisterView_Click" FontSize="12"/>
+            <Button Content="Appointments" Width="110" Style="{StaticResource ButtonStyle}"
+                    Click="OpenAppointmentView_Click" FontSize="12"/>
         </StackPanel>
     </Grid>
 </Window>
