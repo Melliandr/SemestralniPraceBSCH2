@@ -288,11 +288,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
+      "projectUniqueName": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
       "projectName": "VeterinarniKlinika",
-      "projectPath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
+      "projectPath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
       "packagesPath": "C:\\Users\\Konstantin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika\\obj\\",
+      "outputPath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Konstantin\\AppData\\Roaming\\NuGet\\NuGet.Config",

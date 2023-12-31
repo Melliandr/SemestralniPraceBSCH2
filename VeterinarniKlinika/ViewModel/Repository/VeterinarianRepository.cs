@@ -21,6 +21,15 @@ namespace VeterinarniKlinika.ViewModel.Repository
         {
             try
             {
+                // Validate input data
+                if (string.IsNullOrWhiteSpace(veterinarian.FirstName) ||
+                    string.IsNullOrWhiteSpace(veterinarian.LastName))
+                {
+                    // Display an error message to the user
+                    Console.WriteLine("First Name and Last Name are required fields.");
+                    return; // Don't proceed with the insert
+                }
+
                 using (var connection = new SqliteConnection(_connectionString))
                 {
                     connection.Open();
@@ -43,6 +52,7 @@ namespace VeterinarniKlinika.ViewModel.Repository
                 throw;
             }
         }
+
 
         public List<Veterinarian> GetAllVeterinarians()
         {

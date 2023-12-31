@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K98F5oDQrN1qp4wLRpjuc/sSeg2Wk624Zy9gfjlvpsjT3xJ/IUrJwQi9ti/JSDy3OHaFi3AKuExZnQtd5SmzsQ==",
+  "dgSpecHash": "ymJfKfZbhcRFxrJiREf/9Px6FSUGONBUhkn8MFzo+aHK3ekl2vaWen/tvgFd2PIoHMGHoS/Eq7hN9fVl6lOMDg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
+  "projectFilePath": "C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Konstantin\\.nuget\\packages\\microsoft.data.sqlite\\6.0.0\\microsoft.data.sqlite.6.0.0.nupkg.sha512",
     "C:\\Users\\Konstantin\\.nuget\\packages\\microsoft.data.sqlite.core\\6.0.0\\microsoft.data.sqlite.core.6.0.0.nupkg.sha512",

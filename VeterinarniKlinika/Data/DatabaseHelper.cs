@@ -9,7 +9,7 @@ namespace VeterinarniKlinika
 {
     public class DatabaseHelper
     {
-        private static readonly string connectionString = "Data Source=C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\VeterinarniKlinika\\Data\\veterinarniKlinika.db";
+        private static readonly string connectionString = "Data Source=C:\\Users\\Konstantin\\Desktop\\SemestralniPraceC#\\SemestralniPraceBSCH2\\VeterinarniKlinika\\Data\\veterinarniKlinika.db";
 
         public static string GetConnectionString()
         {
