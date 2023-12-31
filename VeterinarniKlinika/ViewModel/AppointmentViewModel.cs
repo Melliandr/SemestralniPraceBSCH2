@@ -17,7 +17,7 @@ namespace VeterinarniKlinika.ViewModel
 
         private int _veterinarianID;
         private int _animalID;
-        private DateTime? _appointmentDate; // Changed to nullable DateTime
+        private DateTime? _appointmentDate; 
         private string _serviceType;
         private string _comments;
         private int _status;
@@ -83,7 +83,7 @@ namespace VeterinarniKlinika.ViewModel
             }
         }
 
-        public DateTime? AppointmentDate // Changed property type to nullable DateTime
+        public DateTime? AppointmentDate 
         {
             get => _appointmentDate;
             set
